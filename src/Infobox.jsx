@@ -9,9 +9,9 @@ import ThunderstormIcon from '@mui/icons-material/Thunderstorm';
 import "./Infobox.css";
 
 // Direct video URLs for each weather type (local files in public/videos/)
-const HOT_VIDEO = "/videos/rainy.mp4.mp4";
-const COLD_VIDEO = "/videos/rainy.mp4.mp4";
-const RAINY_VIDEO = "/videos/rainy.mp4.mp4";
+const HOT_VIDEO = "/videos/rainy.mp4";
+const COLD_VIDEO = "/videos/rainy.mp4";
+const RAINY_VIDEO = "/videos/rainy.mp4";
 
 export default function Infobox({info}){
     let HOT_URL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvMHFERmBsiMPilr7L5pnPLUuSbv-uhnWtXw&s";
